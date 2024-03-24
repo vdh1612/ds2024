@@ -4,7 +4,7 @@
 #include <sys/socket.h>
 #include <unistd.h>
 #include <arpa/inet.h>
-#include <fcntl.h> // Bổ sung thư viện để sử dụng hàm open(), close(), write()
+#include <fcntl.h>
 
 #define PORT 8080
 #define SIZE 1024
