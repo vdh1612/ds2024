@@ -27,3 +27,5 @@ root@MSI:/mnt/d/ds2024/File_transfer_using_TCP_socket# ./client
 [+] Data sent successfully to server
 root@MSI:/mnt/d/ds2024/File_transfer_using_TCP_socket#
 ```
+## Report:
+[Here]([lab1_distributed_system.pdf](https://github.com/vdh1612/ds2024/files/14746974/lab1_distributed_system.pdf))
