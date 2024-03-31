@@ -11,4 +11,4 @@ Student Info
 
 * Student Name: Vũ Đức Hiếu
 * Student ID: BI12-162
-* Student Group ID: Not-for-now
+* Student Group ID: 8
