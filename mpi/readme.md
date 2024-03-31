@@ -1,5 +1,7 @@
 # MPI File transfer
 
+[Link to documentation](https://curc.readthedocs.io/en/latest/programming/MPI-C.html)
+
 - How to run:
 
 ```
