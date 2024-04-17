@@ -51,6 +51,8 @@ class MapReduce {
         }
     
         DecimalFormat df = new DecimalFormat("#.##"); // Format to two decimal places
+        String[] subjectNames = {"Math", "French", "English", "Literature"};
+
     
         // Open output.csv file for writing
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("output.csv"))) {
@@ -59,8 +61,9 @@ class MapReduce {
                 double totalPoints = entry.getValue();
                 int totalCount = count.get(subjectId);
                 double average = totalPoints / totalCount;
-                writer.write(subjectId + df.format(average) + "\n"); // Write subject ID and average points to file without dot
-                System.out.println("Subject ID: " + subjectId + ", Average Points: " + df.format(average));
+                writer.write(subjectId + df.format(average) + "\n"); // Write subject ID and average points to file 
+                System.out.println("Subject: " + subjectNames[subjectId - 1] + ", Average Points: " + df.format(average));
+                // Print the subject name and average points to the console
             }
         }
     }
